@@ -22,7 +22,7 @@ async function loadDramas() {
         <p>⭐ IMDb: ${data.imdbRating}</p>
         <p>${data.Year}</p>
       `;
-      container.appendChild(createDramaCard(data))
+      container.appendChild;
     }
   }
 }
