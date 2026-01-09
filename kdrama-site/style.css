@@ -1,3 +1,24 @@
+#search-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+}
+#search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#search-button:hover {
+  background-color: #45a049;
+}
+```css
 body {
   font-family: Arial, sans-serif;
   background: #111;
