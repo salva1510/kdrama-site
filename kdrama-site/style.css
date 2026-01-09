@@ -27,10 +27,22 @@ body {
 }
 
 .drama {
-  background: #222;
-  padding: 10px;
-  margin: 10px;
-  cursor: pointer;
+  background: #1c1c1c;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.drama:hover {
+  transform: scale(1.05);
+}
+
+.drama img {
+  width: 100%;
+  border-radius: 8px;
 }
 .search-container {
   display: flex;
