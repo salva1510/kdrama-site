@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_OMDB_API_KEY";
+const API_KEY = "4c918f6f";
 
 const dramaTitles = [
   "Crash Landing on You",
