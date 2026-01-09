@@ -11,7 +11,7 @@ function createDramaCard(data) {
   div.innerHTML = `
     <img src="${data.Poster !== "N/A" ? data.Poster : "https://via.placeholder.com/180x270"}">
     <h3>${data.Title}</h3>
-    <p>⭐ ${data.imdbRating}</p>
+    <p>⭐ ${data.imdbRating !== "N/A" ? data.imdbRating : "No rating"}</p>
     <p>${data.Year}</p>
   `;
 
