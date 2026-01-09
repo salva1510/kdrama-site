@@ -67,3 +67,12 @@ body {
 body {
   font-family: 'Poppins', sans-serif;
 }
+#detail {
+  max-width: 600px;
+  margin: auto;
+}
+
+#detail img {
+  display: block;
+  margin-bottom: 20px;
+}
